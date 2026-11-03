@@ -1,0 +1,126 @@
+{
+  "name": "KM Developers",
+  "tagline": "Creating Lifestyle",
+  "heroTitle": ["Creating", "Timeless", "Destinations"],
+  "heroSubtitle": "A history of building, a future of lasting value.",
+  "contact": {
+    "phones": ["123 456 7890"],
+    "whatsapp": "1234567890",
+    "email": "kmdeveloper@gmail.com",
+    "address": "S.No. 93, H.No. 37, Nagaon, Taluka Bhiwandi - 421302"
+  },
+  "overview": {
+    "title": "Overview",
+    "paragraphs": [
+      "We don't simply develop spaces. We develop the experience of living in them.",
+      "The big question behind our developments is simple: how can we make everyday living better? The answer lies beyond the apartment itself. It lies in the planning of spaces, the quality of materials, the usefulness of amenities, the reliability of infrastructure and the feeling a resident gets after coming home."
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "paragraphs": [
+      "KM Developers began in 2009 as a partnership of the Kadam and Mehta families, with a simple intention: to create quality homes that offer real value and help people build a better lifestyle.",
+      "Affordable housing became our starting point, with a larger ambition of creating complete lifestyles. Over the years our journey has taken us across Boisar, Naigaon and Mira-Bhayandar, giving us the opportunity to be part of the lives of thousands of families. Today we are a developer built around execution, quality, timely possession and long-term trust."
+    ]
+  },
+  "stats": [
+    { "value": 50, "suffix": "+", "label": "Completed projects across our group of companies" },
+    { "value": 3000, "suffix": "+", "label": "Units sold till date" },
+    { "value": 17, "suffix": "+", "label": "Years of development since 2009" }
+  ],
+  "milestones": {
+    "title": "Milestones",
+    "subtitle": "Progress you can measure. Trust you can feel.",
+    "text": "Every milestone at KM Developers represents more than a number. It represents a project delivered, a promise fulfilled and another family beginning life in a home of their own.",
+    "highlights": [
+      { "title": "3 Key Markets", "text": "Boisar | Naigaon | Mira-Bhayandar" },
+      { "title": "Timely Delivery", "text": "Projects delivered with occupation certificates and required statutory compliances fulfilled" }
+    ]
+  },
+  "journey": {
+    "title": "Our Journey",
+    "subtitle": "From a shared vision to a growing legacy · 2009 – Today",
+    "steps": [
+      { "label": "2009", "text": "A partnership of the Kadam and Mehta families gives shape to KM Developers." },
+      { "label": "The Foundation", "text": "Affordable housing becomes the starting point, with a larger ambition of creating complete lifestyles." },
+      { "label": "The Expansion", "text": "The group grows its presence across Boisar, Naigaon and Mira-Bhayandar." },
+      { "label": "The Track Record", "text": "50+ completed projects across the group and 3,000+ units sold." },
+      { "label": "Today", "text": "A developer built around execution, quality, timely possession and long-term trust." },
+      { "label": "Tomorrow", "text": "A larger vision for creating thoughtfully planned communities and stronger benchmarks in development." }
+    ]
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "Our vision is to keep building better. We want KM Developers to be known not simply for the number of homes we create, but for the quality, value and trust that each home represents."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "Our mission is to create homes that people can be proud to own and confident to live in. For us, the responsibility does not end when a building is completed. It begins with understanding what people need and continues through every stage of construction. We want to keep delivering and keep building better, one development at a time."
+  },
+  "founders": {
+    "title": "Founder's Message",
+    "names": "Kadam & Mehta",
+    "role": "Founders, KM Developers",
+    "image": "/images/founders.webp",
+    "message": [
+      "When we started KM Developers in 2009, our intention was simple: to create quality homes that offered real value and helped people build a better lifestyle. Over the years, our journey has taken us across Boisar, Naigaon and Mira-Bhayandar, which has given us the opportunity to be part of the lives of thousands of families.",
+      "For us, every project is a responsibility. From the quality we put into our construction to the way we deliver our commitments, we believe in doing things with honesty, discipline and care.",
+      "We are grateful for the trust that brought us here, and committed to building what comes next."
+    ]
+  },
+  "presence": {
+    "title": "Our Presence",
+    "subtitle": "Growing with the places that matter",
+    "text": "Our developments are located across some of the region's important residential growth corridors.",
+    "markets": [
+      { "name": "Boisar", "text": "Where rapid development meets growing residential aspirations." },
+      { "name": "Naigaon", "text": "A fast-growing residential destination shaped by connectivity and accessibility." },
+      { "name": "Mira-Bhayandar", "text": "A market where decades of real estate experience have helped us understand the evolving needs of local homebuyers." }
+    ]
+  },
+  "trust": {
+    "title": "Legacy of Trust",
+    "belief": "A home is a long-term investment. So should be the trust behind it.",
+    "points": [
+      { "title": "Deliver what we promise", "text": "Commitments matter only when they translate into action." },
+      { "title": "Build with responsibility", "text": "Every development carries a responsibility towards its residents and surroundings." },
+      { "title": "Maintain transparency", "text": "Clear processes create stronger relationships." },
+      { "title": "Think long term", "text": "A project may be completed, but the relationship with a homeowner should not be." }
+    ]
+  },
+  "philosophy": {
+    "title": "Brand Philosophy",
+    "lead": "We don't simply develop spaces. We develop the experience of living in them.",
+    "principles": ["Accessible", "Quality", "Execution", "Lifestyle", "Trust"]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Construction excellence",
+    "text": "At KM Developers, quality is treated as a process that runs through every stage of development, from planning and material selection to execution and finishing.",
+    "items": [
+      { "icon": "layers", "title": "Trusted Materials", "text": "Quality begins with choosing the right materials." },
+      { "icon": "badge", "title": "Established Brands", "text": "We incorporate reputed brands wherever relevant to ensure reliability and performance." },
+      { "icon": "hardhat", "title": "Quality-Focused Execution", "text": "Attention to detail remains central to every stage of construction." },
+      { "icon": "shield", "title": "Safety & Compliance", "text": "Projects are developed with the required statutory and authority compliances." },
+      { "icon": "clock", "title": "Timely Delivery", "text": "Efficient execution allows us to maintain our commitment to possession timelines." },
+      { "icon": "key", "title": "Customer-Focused Finish", "text": "Because the final experience matters as much as the construction process." }
+    ]
+  },
+  "innovation": {
+    "title": "Design & Innovation",
+    "paragraphs": [
+      "From efficient layouts to lifestyle amenities and modern specifications, every detail is considered with one question in mind: does this make life better for the person who lives here?",
+      "Our approach to design is rooted in function, lifestyle and long-term relevance. We look at how people actually live and translate those insights into spaces that are practical, comfortable and contemporary."
+    ]
+  },
+  "future": {
+    "title": "Future Vision",
+    "points": [
+      { "title": "Expand with purpose", "text": "Grow into new opportunities while remaining selective about the locations and developments we undertake." },
+      { "title": "Build better", "text": "Continue strengthening our standards in construction, design, technology and project execution." },
+      { "title": "Create lasting communities", "text": "Move beyond individual buildings to create environments where families can live, connect and grow." }
+    ]
+  },
+  "disclaimer": "Disclaimer: The information, images, visuals, specifications, plans, amenities, and facilities mentioned on this website are purely indicative and for illustrative purposes only. They do not constitute a legal offer, agreement, or contract of any nature. All layouts, dimensions, elevations, and specifications are subject to change, modification, or revision as may be required by the developer, architects, or relevant authorities. The developer reserves the right to make such changes without prior notice. The furniture, fixtures, landscaping, and surrounding environment shown in the visuals are artistic impressions and may not represent the exact final product. Prospective buyers are advised to verify all details, specifications, approvals, and documentation independently before making any purchase decision.",
+  "visualNote": "*AI-generated visual for representation purposes only. Actual elevation may vary."
+}

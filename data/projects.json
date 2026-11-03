@@ -1,0 +1,277 @@
+[
+  {
+    "slug": "narmada-mohan-atlantis",
+    "name": "Narmada Mohan Atlantis",
+    "location": "Bhayandar (West)",
+    "market": "Mira-Bhayandar",
+    "status": "ongoing",
+    "featured": true,
+    "image": "/images/projects/narmada-mohan-atlantis.jpg",
+    "description": [
+      "Narmada Mohan Atlantis is one of KM Developers' flagship ongoing developments in Bhayandar (West), designed around the idea that a home should make everyday living better.",
+      "Mira-Bhayandar is a market where decades of real estate experience have helped us understand the evolving needs of local homebuyers, and Atlantis brings that understanding together with thoughtful planning, trusted materials and a commitment to timely possession."
+    ]
+  },
+  {
+    "slug": "narmada-lifestyle-antariksh",
+    "name": "Narmada Lifestyle – Antariksh",
+    "location": "Bhayandar (West)",
+    "market": "Mira-Bhayandar",
+    "status": "ongoing",
+    "featured": true,
+    "image": "/images/projects/narmada-lifestyle-antariksh.jpg",
+    "description": [
+      "Narmada Lifestyle – Antariksh is an ongoing development in Bhayandar (West) that reflects our ambition of moving from homes to complete lifestyles.",
+      "Every detail, from efficient layouts to modern specifications, is considered with one question in mind: does this make life better for the person who lives here?"
+    ]
+  },
+  {
+    "slug": "siddhivinayak-unique-estate",
+    "name": "Siddhivinayak Unique Estate",
+    "location": "Mira Road (East)",
+    "market": "Mira-Bhayandar",
+    "status": "ongoing",
+    "featured": true,
+    "image": "/images/projects/siddhivinayak-unique-estate.jpg",
+    "description": [
+      "Siddhivinayak Unique Estate is an ongoing development in Mira Road (East), one of the region's important residential growth corridors.",
+      "The project is being built with the same focus on quality-focused execution, statutory compliance and customer-focused finish that defines every KM Developers address."
+    ]
+  },
+  {
+    "slug": "sai-plaza",
+    "name": "Sai Plaza",
+    "location": "Bhayandar",
+    "market": "Mira-Bhayandar",
+    "status": "ongoing",
+    "featured": true,
+    "image": "/images/projects/sai-plaza.jpg",
+    "description": [
+      "Sai Plaza is an ongoing development in Bhayandar, part of our continuing commitment to the Mira-Bhayandar market where our journey has deep roots.",
+      "From planning and material selection to execution and finishing, quality is treated as a process that runs through every stage of the project."
+    ]
+  },
+  {
+    "slug": "narmada-vihar",
+    "name": "Narmada Vihar",
+    "location": "Boisar (East)",
+    "market": "Boisar",
+    "status": "ongoing",
+    "featured": false,
+    "image": "/images/projects/narmada-vihar.jpg",
+    "description": [
+      "Narmada Vihar is an ongoing development in Boisar (East), where rapid development meets growing residential aspirations.",
+      "True to our roots in accessible housing, the project aims to offer real value and help families build a better lifestyle."
+    ]
+  },
+  {
+    "slug": "narmada-mohan-chs",
+    "name": "Narmada Mohan CHS Ltd.",
+    "location": "Naigaon (East)",
+    "market": "Naigaon",
+    "status": "ongoing",
+    "featured": false,
+    "image": "/images/projects/narmada-mohan-chs.jpg",
+    "description": [
+      "Narmada Mohan CHS Ltd. is an ongoing development in Naigaon (East), a fast-growing residential destination shaped by connectivity and accessibility.",
+      "The project brings KM Developers' focus on trusted materials, established brands and timely delivery to one of the region's emerging neighbourhoods."
+    ]
+  },
+  {
+    "slug": "golden-jubilee",
+    "name": "Golden Jubilee",
+    "location": "Jogeshwari (West)",
+    "market": "Mumbai",
+    "status": "ongoing",
+    "featured": true,
+    "image": "/images/projects/golden-jubilee.jpg",
+    "description": [
+      "Golden Jubilee is an ongoing development in Jogeshwari (West), Mumbai, marking our purposeful expansion into new locations.",
+      "It reflects our future vision: to grow into new opportunities while remaining selective about the locations and developments we undertake."
+    ]
+  },
+  {
+    "slug": "narmada-paradise-phase-2",
+    "name": "Narmada Paradise – Phase II",
+    "location": "Bhayandar (East)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/narmada-paradise-phase-2.jpg",
+    "description": [
+      "Narmada Paradise – Phase II is a completed development in Bhayandar (East), building on the success of the first phase.",
+      "Like all our delivered projects, it stands as a promise fulfilled and a home for families who trusted us with one of life's most important investments."
+    ]
+  },
+  {
+    "slug": "yash-shanti",
+    "name": "Yash Shanti",
+    "location": "Bhayandar (West)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/yash-shanti.jpg",
+    "description": [
+      "Yash Shanti is a completed development in Bhayandar (West).",
+      "It is part of the track record of 50+ completed projects across our group that has made KM Developers a trusted name in Mira-Bhayandar."
+    ]
+  },
+  {
+    "slug": "narmada-gagan",
+    "name": "Narmada Gagan",
+    "location": "Bhayandar (East)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/narmada-gagan.jpg",
+    "description": [
+      "Narmada Gagan is a completed development in Bhayandar (East).",
+      "The project reflects our belief that a project may be completed, but the relationship with a homeowner should not be."
+    ]
+  },
+  {
+    "slug": "rama-residency",
+    "name": "Rama Residency",
+    "developer": "Siddhivinayak Developers",
+    "location": "Mira Road",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/rama-residency.jpg",
+    "description": [
+      "Rama Residency by Siddhivinayak Developers is a completed development in Mira Road, part of the KM Developers group portfolio.",
+      "It was delivered with the same commitment to quality construction and timely possession that defines the group."
+    ]
+  },
+  {
+    "slug": "shree-shivling-enterprises",
+    "name": "Shree Shivling Enterprises",
+    "location": "Dahisar",
+    "market": "Mumbai",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/shree-shivling-enterprises.jpg",
+    "description": [
+      "Shree Shivling Enterprises is a completed development in Dahisar, Mumbai.",
+      "It is one of the many delivered projects across our group of companies that together account for 3,000+ units sold."
+    ]
+  },
+  {
+    "slug": "narmada-heritage",
+    "name": "Narmada Heritage",
+    "location": "Bhayandar (East)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/narmada-heritage.jpg",
+    "description": [
+      "Narmada Heritage is a completed development in Bhayandar (East).",
+      "Delivered with occupation certificates and required statutory compliances, it reflects our commitment to delivering what we promise."
+    ]
+  },
+  {
+    "slug": "narmada-paradise-phase-1",
+    "name": "Narmada Paradise – Phase I",
+    "location": "Bhayandar (East)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/narmada-paradise-phase-1.jpg",
+    "description": [
+      "Narmada Paradise – Phase I is a completed development in Bhayandar (East).",
+      "Its success laid the foundation for Phase II and remains a proud part of our journey in Mira-Bhayandar."
+    ]
+  },
+  {
+    "slug": "geeta-arcade",
+    "name": "Geeta Arcade",
+    "developer": "Geeta Associates",
+    "location": "Mira Road",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/geeta-arcade.jpg",
+    "description": [
+      "Geeta Arcade by Geeta Associates is a completed development in Mira Road, part of the KM Developers group portfolio.",
+      "It adds to a track record built on execution, quality, timely possession and long-term trust."
+    ]
+  },
+  {
+    "slug": "shantinath-tower",
+    "name": "Shantinath Tower",
+    "location": "Bhayandar (West)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/shantinath-tower.jpg",
+    "description": [
+      "Shantinath Tower is a completed development in Bhayandar (West).",
+      "It is one of the homes that make up our legacy of trust across the Mira-Bhayandar region."
+    ]
+  },
+  {
+    "slug": "ganga-complex",
+    "name": "Ganga Complex",
+    "location": "Mira Road",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/ganga-complex.jpg",
+    "description": [
+      "Ganga Complex is a completed development in Mira Road.",
+      "It was built with our consistent focus on trusted materials and quality-focused execution."
+    ]
+  },
+  {
+    "slug": "saraswati-krupa",
+    "name": "Saraswati Krupa",
+    "location": "Bhayandar (East)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/saraswati-krupa.jpg",
+    "description": [
+      "Saraswati Krupa is a completed development in Bhayandar (East).",
+      "It represents another family beginning life in a home of their own, the true measure of every milestone at KM Developers."
+    ]
+  },
+  {
+    "slug": "saraswati-park",
+    "name": "Saraswati Park",
+    "location": "Bhayandar (East)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/saraswati-park.jpg",
+    "description": [
+      "Saraswati Park is a completed development in Bhayandar (East).",
+      "It forms part of our long-standing presence in a market we understand deeply."
+    ]
+  },
+  {
+    "slug": "saraswati-apartment",
+    "name": "Saraswati Apartment",
+    "location": "Bhayandar (East)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/saraswati-apartment.jpg",
+    "description": [
+      "Saraswati Apartment is a completed development in Bhayandar (East).",
+      "It reflects our early focus on accessible, quality housing that offers real value to families."
+    ]
+  },
+  {
+    "slug": "jay-bhadreshwar-chs",
+    "name": "Jay Bhadreshwar CHS Ltd.",
+    "location": "Bhayandar (West)",
+    "market": "Mira-Bhayandar",
+    "status": "completed",
+    "featured": false,
+    "image": "/images/projects/jay-bhadreshwar-chs.jpg",
+    "description": [
+      "Jay Bhadreshwar CHS Ltd. is a completed development in Bhayandar (West).",
+      "It stands as part of the 17+ year legacy that the Kadam and Mehta families have built together."
+    ]
+  }
+]

@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KM Developers – Company Profile Website
 
-## Getting Started
+Single-page company profile for KM Developers, built with **Next.js 16 (App Router)**, **TypeScript** and **Tailwind CSS v4**. Every project also gets its own page at `/projects/[slug]`. Enquiry forms send leads to a **Google Sheet** and to **email** through Google Apps Script.
 
-First, run the development server:
+## Getting started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # then fill in the values (see below)
+npm run dev                  # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Production build: `npm run build && npm start`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Where things live
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Path | What it is |
+| --- | --- |
+| `data/projects.json` | All projects (name, location, status, image, description). Add, edit or remove projects here. A new entry gets its own page automatically. |
+| `data/company.json` | All company copy: contact details, stats, journey, vision/mission, founders, services and so on. |
+| `app/page.tsx` | The landing page, assembled from the sections in `components/sections/`. |
+| `app/projects/[slug]/page.tsx` | The page for a single project. |
+| `app/api/enquiry/route.ts` | Receives form submissions and forwards them to Google Apps Script. |
+| `google-apps-script/Code.gs` | The Apps Script that saves leads to the sheet and sends the email. |
+| `public/images/` | Optimised images used by the site. Project photos are in `public/images/projects/`. |
 
-## Learn More
+### Adding a project
 
-To learn more about Next.js, take a look at the following resources:
+1. Put the photo in `public/images/projects/<slug>.jpg` (portrait, about 1000 px wide).
+2. Add an entry to `data/projects.json`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```json
+{
+  "slug": "my-new-project",
+  "name": "My New Project",
+  "location": "Mira Road (East)",
+  "market": "Mira-Bhayandar",
+  "status": "ongoing",
+  "featured": true,
+  "image": "/images/projects/my-new-project.jpg",
+  "description": ["First paragraph.", "Second paragraph."]
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`status` is `ongoing` or `completed`. Set `featured` to `true` to show the project in the "Landmark Developments" carousel. `developer` is optional; use it for group-company projects.
 
-## Deploy on Vercel
+## Enquiry form: Google Sheet and email
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Every "Enquire Now" button opens the popup form. The contact section has the same form inline. Submissions go to `/api/enquiry`, which validates them and forwards them to the Apps Script web app.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Create a Google Sheet, for example "KM Developers – Enquiries".
+2. In the sheet, open **Extensions → Apps Script**. Replace the contents of `Code.gs` with `google-apps-script/Code.gs` from this repo.
+3. Change `NOTIFY_EMAILS` at the top of the script to the address (or comma-separated addresses) that should receive leads.
+4. Optional, but recommended: in **Project Settings → Script Properties**, add `SHARED_SECRET` with a random string.
+5. Click **Deploy → New deployment**, choose type **Web app**, set *Execute as* to **Me** and *Who has access* to **Anyone**, then click **Deploy** and approve the permissions.
+6. Copy the web app URL (it ends in `/exec`) into `.env.local`:
+
+```env
+GOOGLE_SCRIPT_URL=https://script.google.com/macros/s/XXXX/exec
+GOOGLE_SCRIPT_SECRET=the-same-random-string   # only if you did step 4
+```
+
+7. Restart the dev server and submit a test enquiry. A new row appears in the "Enquiries" tab and a notification email is sent.
+
+> Whenever you edit the script, publish the change with **Deploy → Manage deployments → Edit → Version: New version**. Otherwise the URL keeps running the old code.
+
+## Before going live
+
+- Replace the placeholder phone number (`123 456 7890`) and WhatsApp number in `data/company.json`, and check the email and address.
+- Set `NEXT_PUBLIC_SITE_URL` to the live domain so social-share previews work.
+- Set `GOOGLE_SCRIPT_URL` (and `GOOGLE_SCRIPT_SECRET`) in your hosting provider's environment variables.
+- Source files the site doesn't use, such as the two source PDFs (the company profile PDF is about 640 MB), belong in `source-assets/`. That folder is gitignored, so it exists only on your machine and is never pushed or deployed.

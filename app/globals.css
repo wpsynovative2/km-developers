@@ -1,26 +1,116 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-copper-light: #f4b469;
+  --color-copper: #c87a3c;
+  --color-copper-dark: #8c4316;
+  --color-brown-deep: #3a0c02;
+  --color-brown: #5c1c06;
+  --color-brown-bright: #a5490a;
+  --color-olive: #43461a;
+  --color-olive-dark: #33350f;
+  --color-cream: #faf7f2;
+  --color-ink: #1c1712;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: var(--font-poppins);
+  --font-display: var(--font-krona);
+  --font-serif: var(--font-cinzel);
+  --font-label: var(--font-montserrat);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-float-slow: float 11s ease-in-out infinite;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0) rotate(0deg);
+    }
+    50% {
+      transform: translate3d(8px, -18px, 0) rotate(8deg);
+    }
   }
 }
 
+@utility text-copper-gradient {
+  background-image: linear-gradient(90deg, #f4b469 0%, #d48a4a 45%, #9a4b1b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility text-brown-gradient {
+  background-image: linear-gradient(90deg, #3a0c02 0%, #7a3410 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility bg-copper-gradient {
+  background-image: linear-gradient(90deg, #f4b469 0%, #c87a3c 55%, #9a4b1b 100%);
+}
+
+@utility bg-brown-gradient {
+  background-image: linear-gradient(90deg, #3a0c02 0%, #4a1203 45%, #a5490a 100%);
+}
+
+@utility bg-pattern {
+  background-color: #faf7f2;
+  background-image: url("/images/pattern-tile.png");
+  background-size: 246px 103px;
+  background-repeat: repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: var(--color-ink);
+}
+
+/* Reveal-on-scroll, toggled by <Reveal> */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+dialog[open] {
+  animation: dialog-in 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.98);
+  }
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .animate-float,
+  .animate-float-slow {
+    animation: none;
+  }
 }
