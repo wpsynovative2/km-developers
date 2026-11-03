@@ -20,10 +20,11 @@ export default function LandmarkCarousel({ items }: { items: Project[] }) {
   }
 
   return (
-    <div>
+    // min-w-0: as a grid item this would otherwise grow to fit every card, leaving the track nothing to scroll.
+    <div className="min-w-0">
       <div
         ref={trackRef}
-        className="no-scrollbar -mx-4 flex snap-x snap-mandatory gap-8 overflow-x-auto px-4 pt-2 pb-6"
+        className="no-scrollbar -mx-4 flex snap-x snap-mandatory scroll-px-4 gap-8 overflow-x-auto px-4 pt-2 pb-6"
       >
         {items.map((project) => (
           <div key={project.slug} data-card className="w-[72vw] max-w-[18rem] shrink-0 snap-start sm:w-64 lg:w-72">
