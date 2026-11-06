@@ -66,7 +66,7 @@ GOOGLE_SCRIPT_SECRET=the-same-random-string   # only if you did step 4
 
 ## Before going live
 
-- Replace the placeholder phone number (`123 456 7890`) and WhatsApp number in `data/company.json`, and check the email and address.
+- Contact details (phone, WhatsApp, email, address) live in `data/company.json`.
 - Set `NEXT_PUBLIC_SITE_URL` to the live domain so social-share previews work.
 - Set `GOOGLE_SCRIPT_URL` (and `GOOGLE_SCRIPT_SECRET`) in your hosting provider's environment variables.
 - Source files the site doesn't use, such as the two source PDFs (the company profile PDF is about 640 MB), belong in `source-assets/`. That folder is gitignored, so it exists only on your machine and is never pushed or deployed.
