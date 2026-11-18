@@ -1,30 +1,38 @@
 import type { Metadata, Viewport } from "next";
-import { Cinzel, Krona_One, Montserrat, Poppins } from "next/font/google";
+import localFont from "next/font/local";
 import EnquiryProvider from "@/components/enquiry/EnquiryProvider";
 import FloatingActions from "@/components/layout/FloatingActions";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
-const poppins = Poppins({
+// Fonts are self-hosted (latin subset, downloaded from Google Fonts) so the
+// build never has to reach fonts.googleapis.com, which can fail on CI.
+const poppins = localFont({
   variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  src: [
+    { path: "./fonts/Poppins-Light.woff2", weight: "300", style: "normal" },
+    { path: "./fonts/Poppins-Regular.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/Poppins-Medium.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/Poppins-SemiBold.woff2", weight: "600", style: "normal" },
+  ],
 });
 
-const montserrat = Montserrat({
+const montserrat = localFont({
   variable: "--font-montserrat",
-  subsets: ["latin"],
+  src: "./fonts/Montserrat-Variable.woff2",
+  weight: "100 900",
 });
 
-const cinzel = Cinzel({
+const cinzel = localFont({
   variable: "--font-cinzel",
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  src: "./fonts/Cinzel-Variable.woff2",
+  weight: "400 900",
+  adjustFontFallback: "Times New Roman",
 });
 
-const krona = Krona_One({
+const krona = localFont({
   variable: "--font-krona",
-  subsets: ["latin"],
+  src: "./fonts/KronaOne-Regular.woff2",
   weight: "400",
 });
 
