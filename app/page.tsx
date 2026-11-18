@@ -12,6 +12,7 @@ import PresenceTrust from "@/components/sections/PresenceTrust";
 import Projects from "@/components/sections/Projects";
 import Services from "@/components/sections/Services";
 import Team from "@/components/sections/Team";
+import Testimonials from "@/components/sections/Testimonials";
 import VisionMission from "@/components/sections/VisionMission";
 
 export default function Home() {
@@ -43,6 +44,7 @@ export default function Home() {
           image="/images/vision.jpg"
         />
         <Contact />
+        <Testimonials />
       </main>
     </>
   );

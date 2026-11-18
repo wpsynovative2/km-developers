@@ -6,7 +6,7 @@
   "contact": {
     "phones": ["+91 93721 13159"],
     "whatsapp": "919372113159",
-    "email": "kmdeveloper@gmail.com",
+    "email": "kmdevelop@gmail.com",
     "address": "Shop No 4&5, Raghuleela, opp Padmavati Nagar, Nr Maxus Mall, 150 Feet Rd, Bhayandar West, Dist Thane 401101, Maharashtra"
   },
   "overview": {
@@ -121,6 +121,29 @@
       { "title": "Create lasting communities", "text": "Move beyond individual buildings to create environments where families can live, connect and grow." }
     ]
   },
-  "disclaimer": "Disclaimer: The information, images, visuals, specifications, plans, amenities, and facilities mentioned on this website are purely indicative and for illustrative purposes only. They do not constitute a legal offer, agreement, or contract of any nature. All layouts, dimensions, elevations, and specifications are subject to change, modification, or revision as may be required by the developer, architects, or relevant authorities. The developer reserves the right to make such changes without prior notice. The furniture, fixtures, landscaping, and surrounding environment shown in the visuals are artistic impressions and may not represent the exact final product. Prospective buyers are advised to verify all details, specifications, approvals, and documentation independently before making any purchase decision.",
+  "testimonials": {
+    "eyebrow": "What Our",
+    "title": "Homeowners Say",
+    "text": "Thousands of families have made a KM Developers home their own. Here is what some of them tell us.",
+    "image": "/images/projects/atlantis/night-view.jpg",
+    "items": [
+      {
+        "quote": "We were looking for a home that fit our budget without compromising on quality. The construction is solid, possession came on time and the team was transparent with us at every step.",
+        "name": "Homeowner",
+        "project": "Narmada Vihar, Boisar"
+      },
+      {
+        "quote": "From the first site visit to receiving our keys, the experience was smooth. The building is well maintained and the location has made daily life so much easier for our family.",
+        "name": "Homeowner",
+        "project": "Narmada Mohan, Naigaon"
+      },
+      {
+        "quote": "What stood out for us was the honesty. Every commitment made during booking was delivered, and even after possession the team has stayed in touch whenever we needed them.",
+        "name": "Homeowner",
+        "project": "Mira-Bhayandar"
+      }
+    ]
+  },
+  "disclaimer":"Disclaimer: The information, images, visuals, specifications, plans, amenities, and facilities mentioned on this website are purely indicative and for illustrative purposes only. They do not constitute a legal offer, agreement, or contract of any nature. All layouts, dimensions, elevations, and specifications are subject to change, modification, or revision as may be required by the developer, architects, or relevant authorities. The developer reserves the right to make such changes without prior notice. The furniture, fixtures, landscaping, and surrounding environment shown in the visuals are artistic impressions and may not represent the exact final product. Prospective buyers are advised to verify all details, specifications, approvals, and documentation independently before making any purchase decision.",
   "visualNote": "*AI-generated visual for representation purposes only. Actual elevation may vary."
 }

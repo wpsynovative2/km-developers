@@ -6,7 +6,7 @@
  */
 
 // Comma-separated list of addresses that should receive enquiry emails.
-var NOTIFY_EMAILS = 'kmdeveloper@gmail.com';
+var NOTIFY_EMAILS = 'kmdevelop@gmail.com';
 var SHEET_NAME = 'Enquiries';
 var HEADERS = ['Timestamp', 'Name', 'Phone', 'Email', 'Interested In', 'Message', 'Source', 'Page URL'];
 

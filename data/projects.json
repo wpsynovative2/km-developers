@@ -7,6 +7,11 @@
     "status": "ongoing",
     "featured": true,
     "image": "/images/projects/narmada-mohan-atlantis.jpg",
+    "gallery": [
+      { "src": "/images/projects/atlantis/night-view.jpg", "alt": "Narmada Mohan Atlantis tower lit up at dusk", "caption": "Evening View" },
+      { "src": "/images/projects/atlantis/terrace-amenities.jpg", "alt": "Aerial view of the landscaped terrace amenities", "caption": "Terrace Amenities" },
+      { "src": "/images/projects/atlantis/main-gate.jpg", "alt": "Narmada Mohan Atlantis main entrance gate", "caption": "Main Gate" }
+    ],
     "description": [
       "Narmada Mohan Atlantis is one of KM Developers' flagship ongoing developments in Bhayandar (West), designed around the idea that a home should make everyday living better.",
       "Mira-Bhayandar is a market where decades of real estate experience have helped us understand the evolving needs of local homebuyers, and Atlantis brings that understanding together with thoughtful planning, trusted materials and a commitment to timely possession."

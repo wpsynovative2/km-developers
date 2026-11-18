@@ -12,6 +12,7 @@ export interface Project {
   status: ProjectStatus;
   featured: boolean;
   image: string;
+  gallery?: { src: string; alt: string; caption: string }[];
   description: string[];
 }
 

@@ -144,6 +144,41 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
           </dl>
         </section>
 
+        {/* Gallery */}
+        {project.gallery && project.gallery.length > 0 && (
+          <section className="bg-white py-20">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6">
+              <Reveal className="mb-12 text-center">
+                <SectionHeading eyebrow="Project" title="Gallery" align="center" />
+              </Reveal>
+              <div className="grid gap-6 md:grid-cols-2">
+                {project.gallery.map((img, i) => (
+                  <Reveal
+                    as="figure"
+                    key={img.src}
+                    delay={i * 100}
+                    className={`group relative overflow-hidden rounded-[2rem] shadow-xl ring-1 ring-black/5 ${
+                      i === 0 ? "md:col-span-2 aspect-[16/9]" : "aspect-[4/3]"
+                    }`}
+                  >
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      fill
+                      sizes={i === 0 ? "(min-width: 1280px) 1232px, 100vw" : "(min-width: 768px) 50vw, 100vw"}
+                      className="object-cover transition duration-700 group-hover:scale-105"
+                    />
+                    <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent px-6 pt-12 pb-5 text-white">
+                      <span className="font-label text-sm font-bold tracking-[0.18em] uppercase">{img.caption}</span>
+                      <span className="block text-[11px] text-white/70">Artist&apos;s impression</span>
+                    </figcaption>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Why KM Developers */}
         <section className="bg-pattern py-20">
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
